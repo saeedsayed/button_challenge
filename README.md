@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://saeedsayed.github.io/button_challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://saeedsayed.github.io/button_challenge/">
       Solution
     </a>
     <span> | </span>
