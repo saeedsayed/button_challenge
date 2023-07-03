@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.m-t{
+    margin-top: 77px;
+}
+/* layout */
+.layout{
+    display: flex;
+}
+/* start aside */
+aside{
+    width: 237px;
+    height: 100vh;
+    background-color:#FAFBFD;
+    padding-left: 48px;
+}
+aside h3{
+    margin-top: 38px;
+    font-weight: 600;
+    color:#090F31;
+    font-size: 13px;
+    margin-bottom: 122px;
+}
+aside h3 span{
+    color: #F7542E;
+}
+aside ul li{
+    margin-bottom: 25px;
+    color: #9E9E9E;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+aside ul li.active{
+    color: #090F31;
+    font-weight: 700;
+}
+/* start content */
+.content{
+    flex: 1;
+    padding-left: 83px;
+}
+.content h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #4f4f4f;
+    margin-top: 53px;
+    margin-bottom: 28px;
+}
+.content .group{
+    display: flex;
+    width: 332px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.content .group.g-5{
+    width: 443px;
+}
+.content .group.g-6{
+    width: 572px;
+}
+.content .group.g-7{
+    width: 532px;
+}
+.content .group.g-8{
+    width: 802px;
+}
+.content .group p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #333333;
+}
+.content .group button{
+    height: 36px;
+    width: 81px;
+    border-radius: 6px;
+    background-color: #E0E0E0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3F3F3F;
+    border: none;
+    cursor: pointer;
+}
+.content .group button.defaultBtnH{
+    background-color: #AEAEAE;
+}
+.content .group button.outlineBtn{
+    border: 1px solid #3D5AFE;
+    background-color: transparent;
+    color: #3D5AFE;
+}
+.content .group button.outlineBtnH{
+    border: 1px solid #3D5AFE;
+    background-color: rgba(41, 98, 255, 0.10);
+    color: #3D5AFE;
+}
+.content .group button.textBtn{
+    background-color: transparent;
+    color: #3D5AFE;
+}
+.content .group button.textBtnH{
+    background-color: rgba(41, 98, 255, 0.10);
+    color: #3D5AFE;
+}
+.content .group button.disableshadow{
+    background-color: #3D5AFE;
+    color: #fff;
+}
+.content .group button.disabledBtn{
+    background-color: #E0E0E0;;
+    color: #9E9E9E;
+}
+.content .group button.disabledBtnH{
+    background-color: transparent;
+    color: #9E9E9E;
+}
+.content .group button.IconBtn{
+    width: 105px;
+    background-color: #2962FF;
+    color: #fff;
+}
+.content .group button.IconBtn span{
+    font-size: 16px;
+}
+.content .group button.primary{
+    background-color: #2962FF;
+    color: #fff;
+}
+.content .group button.sm{
+width: 73px;
+height: 32px;
+}
+.content .group button.lg{
+    width: 93PX;
+    height: 42PX;
+}
+.content .group button.secondary{
+    width: 104px;
+    background-color: #455a64;
+    color: #fff;
+}
+.content .group button.danger{
+    background-color: #D32F2F;
+    color: #fff;
+}
+.content .group button.primaryH{
+    background-color: #0039CB;
+    color: #fff;
+}
+.content .group button.secondaryH{
+    width: 104px;
+    background-color: #1C313A;
+    color: #fff;
+}
+.content .group button.dangerH{
+    background-color: #9A0007;
+    color: #fff;
+}
